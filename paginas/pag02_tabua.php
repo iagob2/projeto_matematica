@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Projeto de Matemática</title>
-    <link rel="stylesheet" href="../css/formatação.css">
-    <link rel="stylesheet" href="../css/tabelas.css">
+    <link rel="stylesheet" href="../style/formatação.css">
+    <link rel="stylesheet" href="../style/tabelas.css">
 </head>
 <body>
     <header>
@@ -32,8 +32,12 @@
             </form></section>
 
         <section id='resp'>
+            <div>
             <?php 
             if(!empty($_POST['calcular'])) {
+                echo "<script src='../scripts/ADD_pedding.js'>
+                
+                 </script>";
                 $valor = $_POST['num'];
                 echo "<h1>Tabua de ". $valor." zz </h1>";
 
@@ -112,7 +116,7 @@ echo "<caption> MULTIPLICAÇÃO:</caption>";
             
             ?>
 
-
+  </div>
         </section>
 
     </main>

@@ -67,9 +67,7 @@ main h1 {
 
 
 #form { 
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 15px auto 5px auto  ;
     width: 90vw;
     height:30vh;
     border-radius: 36px;
@@ -79,13 +77,21 @@ main h1 {
 
 
 input { width: 60px ;}
+
 #resp  {
-    margin-left: auto;
-    margin-right: auto;
-    background: #8BFDBB;
-    margin-top: 20px;
-    width: 90vw;
+        
+        margin: auto  ;
+        background: #8BFDBB;
+        margin-top: 20px;
+        width: 90vw;
+        display: flex;
+    }
+        
+#resp div { 
+    margin-left: 15%;
+    margin-right: 10%;
 }
+
 
 #txt { 
 
