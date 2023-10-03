@@ -24,37 +24,43 @@
 
     <main>
         <section id="form">
-        
-        <form action="#" method="post" >
+        <form action="#" method="post">
+      
             <label for=""> Digite o numero para ver sua tábua de ZZ </label>
             <input type="number" name="num">
-            <input type="submit" value="calcular" name="calcular">
+            <input type="submit" value="calcular" name="calcular" > 
             </form></section>
 
         <section id='resp'>
-          
+
+        
+           
             <?php 
+            
+
             if(!empty($_POST['calcular'])) {
+
                 echo "<script src='../scripts/ADD_pedding.js'>
                 
                  </script>";
-                $valor = $_POST['num'];
-                echo "<h1>Tabua de ". $valor." zz </h1>";
 
-       echo "<table  >";
-    echo "<caption>ADIÇÃO:  </caption>";
-    echo "<th>";
-    echo "+";
-     echo "</th>";
-   for($t = 0 ; $t < $valor ; $t++ ) {
-    echo "<th>";
-    echo "<span class='traço'>". $t."</span>";
-     echo "</th>";
-   }
+                $valor = $_POST['num'];
+                echo "<h1> Tabua de ". $valor." zz </h1>";
+
+              echo "<table  >";
+                echo "<caption>ADIÇÃO:  </caption>";
+                echo "<th>";
+                echo "+";
+                echo "</th>";
+            for($t = 0 ; $t < $valor ; $t++ ) {
+                echo "<th>";
+                echo "<span class='traço'>". $t."</span>";
+                echo "</th>";
+            }
 
             for($l = 0 ;$l< $valor; $l++ ){
             echo "<tr>";
-            echo "<th >";
+            echo "<th >";   
             echo "<span class='traço'>". $l."</span>"; 
             echo "</th>";
                 for($c= 0 ;$c< $valor; $c++ ){
@@ -78,9 +84,9 @@
     //multiplicação
 
         echo "<table  >";
-echo "<caption> MULTIPLICAÇÃO:</caption>";
-    echo "<th>";
-    echo " . ";
+        echo "<caption> MULTIPLICAÇÃO:</caption>";
+       echo "<th>";
+      echo " . ";
      echo "</th>";
    for($t = 0 ; $t < $valor ; $t++ ) {
     echo "<th>";
@@ -116,8 +122,9 @@ echo "<caption> MULTIPLICAÇÃO:</caption>";
             
             ?>
 
-  
+
         </section>
+        </div>
 
     </main>
     
