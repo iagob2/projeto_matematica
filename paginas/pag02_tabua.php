@@ -24,7 +24,7 @@
 
     <main>
         <section id="form">
-        <br> <br>
+        
         <form action="#" method="post" >
             <label for=""> Digite o numero para ver sua tábua de ZZ </label>
             <input type="number" name="num">
@@ -32,7 +32,7 @@
             </form></section>
 
         <section id='resp'>
-            <div>
+          
             <?php 
             if(!empty($_POST['calcular'])) {
                 echo "<script src='../scripts/ADD_pedding.js'>
@@ -116,7 +116,7 @@ echo "<caption> MULTIPLICAÇÃO:</caption>";
             
             ?>
 
-  </div>
+  
         </section>
 
     </main>

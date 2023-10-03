@@ -1,7 +1,5 @@
 *{ margin: 0px; padding: 0px;}
 
-
-
 body { background: rgba(131, 249, 180, 0.37);}
 
 header {
@@ -60,36 +58,40 @@ main h1 {
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 35%;
+    margin-left: 40%;
+    padding: 15px;
 }
 
 
 
 
 #form { 
+   
     margin: 15px auto 5px auto  ;
     width: 90vw;
     height:30vh;
-    border-radius: 36px;
-    background: #8BFDBB;
-   
+    border-radius: 25px;
+    background: #8BFDBB;  
+    padding: 50px;    
 }
+
+
 
 
 input { width: 60px ;}
 
+
+
 #resp  {
-        
-        margin: auto  ;
-        background: #8BFDBB;
-        margin-top: 20px;
-        width: 90vw;
-        display: flex;
-    }
-        
-#resp div { 
-    margin-left: 15%;
-    margin-right: 10%;
+    margin: 0px auto  ;
+    background: #8BFDBB;
+    margin-top: 20px;
+    width: 90vw;
+   
+    /*display: none;*/
+    
+    
+   
 }
 
 
@@ -108,6 +110,8 @@ form {
     font-style: normal;
    font-weight: 400;
    line-height: normal;
+
+
 }
 
 
