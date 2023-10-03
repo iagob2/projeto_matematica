@@ -24,7 +24,7 @@
 
     <main>
         <section id="form">
-        <br> <br>
+        
         <form action="#" method="post" >
         <label for=""> Digite o numero da tábua de ZZ </label>
             <input type="number" name="num"><br><br>
@@ -52,9 +52,6 @@
         <section id='resp'>
             <?php 
             if(!empty($_POST['calcular'])) {
-                echo "<script src='../scripts/ADD_pedding.js'>
-                
-                 </script>";
                 $valor =$_POST['num'];
                 $A = $_POST['A'];
                 $B = $_POST['B'];

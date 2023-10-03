@@ -24,7 +24,7 @@
 
     <main>
         <section id="form">
-        <br> <br>
+        
         <form action="#" method="post" >
 
       
@@ -51,9 +51,6 @@
         <section id='resp'>
             <?php 
             if(!empty($_POST['calcular'])) {
-                echo "<script src='../scripts/ADD_pedding.js'>
-                
-                 </script>";
 
                 $valor =$_POST['num'];
     $A = $_POST['A'];

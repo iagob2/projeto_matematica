@@ -24,7 +24,7 @@
 
     <main>
         <section id="form">
-        <br> <br>
+       
         <form action="#" method="post" >
 
         <label for=""> Digite o numero da tábua de ZZ </label>
@@ -46,19 +46,15 @@
             </form></section>
 
         <section id='resp'>
-            <div>
             <?php 
             if(!empty($_POST['calcular'])) {
-                echo "<script src='../scripts/ADD_pedding.js'>
-                
-                 </script>";
 
                 $valor =$_POST['num'];
                 $A = $_POST['A'];
                 $B = $_POST['B'];
                 $C = $_POST['C'];
             
-                echo 'Equações em zz '.$valor.' de : <br><br>';
+                echo '<h1>Equações em zz '.$valor.' de :</h1> <br><br>';
                 
              
                 echo "<table  >";
@@ -98,14 +94,14 @@
             
                     echo "</table>";
                 
-                   
+
             }
                 
 
               
        
             
-            ?> </div>
+            ?>
 
 
         </section>
