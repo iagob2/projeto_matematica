@@ -26,8 +26,8 @@
         <section id="form">
         <form action="#" method="post">
       
-            <label for=""> Digite o numero para ver sua tábua de ZZ </label>
-            <input type="number" name="num">
+            <label for="inum"> Digite o numero para ver sua tábua de ZZ </label>
+            <input type="number" name="num" id="inum" min="2"  required >
             <input type="submit" value="calcular" name="calcular" > 
             </form></section>
 
@@ -42,7 +42,7 @@
 
                 echo "<script src='../scripts/ADD_pedding.js'>
                 
-                 </script>";
+                </script>";
 
                 $valor = $_POST['num'];
                 echo "<h1> Tabua de ". $valor." zz </h1>";
